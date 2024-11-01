@@ -1,0 +1,12 @@
+a.sl-map{
+position: relative ;
+}
+a.sl-map img.sl-map{
+display: none ;
+position: absolute ;
+}
+a.sl-map:hover img.sl-map, a.sl-map:focus img.sl-map{
+display: block ;
+z-index: 100 ;
+width: 256px ;
+}
